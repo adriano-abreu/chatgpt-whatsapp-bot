@@ -32,13 +32,13 @@ Certifique-se de ter instalado:
 4. Inicie o banco de dados Prisma:
 
    
-   npx prisma db push
+   npx prisma migrate dev --name init
    
 
 5. Inicie o servidor:
 
    
-   npm start
+   npm run dev
    
 
 ## Como usar
