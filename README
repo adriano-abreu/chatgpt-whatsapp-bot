@@ -13,34 +13,33 @@ Certifique-se de ter instalado:
 
 1. Clone o repositório:
 
-   ```
-   git clone https://github.com/adriano-abreu/chatgpt-whatsapp-bot.git
-   cd chatgpt-whatsapp-bot
-   ```
+  git clone https://github.com/adriano-abreu/chatgpt-whatsapp-bot.git
+  cd chatgpt-whatsapp-bot
+   
 
 2. Instale as dependências do projeto:
 
-   ```
+  
    npm install
-   ```
+   
 
 3. Crie um arquivo `.env` na raiz do projeto e adicione suas credenciais da API da OpenAI:
 
-   ```
+  
    OPENAI_API_KEY=<sua_chave_de_api>
-   ```
+   
 
 4. Inicie o banco de dados Prisma:
 
-   ```
+   
    npx prisma db push
-   ```
+   
 
 5. Inicie o servidor:
 
-   ```
+   
    npm start
-   ```
+   
 
 ## Como usar
 
@@ -50,9 +49,9 @@ Certifique-se de ter instalado:
 
 3. Envie perguntas para o bot no formato de texto. Por exemplo:
 
-   ```
+   
    !bot Qual é a capital da França?
-   ```
+   
 
 4. O bot processará sua pergunta e enviará uma resposta gerada pelo modelo GPT-3.5 da OpenAI.
 
