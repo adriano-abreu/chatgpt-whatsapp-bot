@@ -13,8 +13,8 @@ Certifique-se de ter instalado:
 
 1. Clone o repositório:
 
-  git clone https://github.com/adriano-abreu/chatgpt-whatsapp-bot.git
-  cd chatgpt-whatsapp-bot
+    git clone https://github.com/adriano-abreu/chatgpt-whatsapp-bot.git
+    cd chatgpt-whatsapp-bot
    
 
 2. Instale as dependências do projeto:
@@ -61,6 +61,3 @@ Certifique-se de ter instalado:
 
 Agradecemos suas contribuições! Por favor, sinta-se à vontade para enviar issues e pull requests.
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
